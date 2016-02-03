@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*HEADER*/
+.navbar{
+	position: fixed;
+	margin-bottom:0%;
+	width: 100%;
+	margin-top: 0%;
+}
+
+.jumbotron {
+	/*background:-webkit-linear-gradient(top, #99CC99, #99CC00  60%);*/
+	background:-webkit-linear-gradient(top,white, black  80%) ;
+	background:-moz-linear-gradient(top,white, black  80%);
+	background:-ms-linear-gradient(top,white, black  80%) ;
+	background:-o-linear-gradient(top,white, black  80%) ;
+	background:linear-gradient(top,white, black  80%);
+
+	/*#509D95;*/
+	color:black;
+	padding:10px 0;
+	bottom:0px;
+	
+
+}
+body{
+	background-color: black;
+}
+
+.jumbotron div img{
+		height: 10%;
+		width: 30%; 
+		margin-top: 4%;
+}
+
+#carousel-1 { /*Carusel contra barra cabecera*/
+	
+		margin-top: 7%;
+}
+#casilla .row{ /*Post del Principal*/
+	background-color: #4C4C4C;
+	padding:1%;
+	border-radius:15px;
+}
+
+#casilla .row img{ /*Post del Principal*/
+	width:90%;
+	border-radius:15px 15px 0px 0px;
+}
+
+#casilla .row p{ /*Post del Principal*/
+	width:90%;
+	background-color:black;
+	border-radius:0px 0px 15px 15px;
+	padding: 2%;
+}
+
+#casilla .row p:hover{ /*Post del Principal*/
+	border-radius:0px 0px 25px 25px;
+	background-color:gray;
+}
+
+.lateral h3{
+	background-color: #4C4C4C;
+	padding:3%;
+	border-radius:15px;
+}
+.lateral p{
+	background-color: #4C4C4C;
+	padding:3%;
+	border-radius:15px 15px 0px 0px;
+}
+
+
+.main{
+	background-color: black;
+	border-radius:15px;
+	color:white;
+
+}
+.main label{
+	color:white;
+}
+
+.piePagina{
+/*	background-color: white;*/
+	background:-webkit-linear-gradient(top,white, black  40%) ;
+	background:-moz-linear-gradient(top,white, black  40%);
+	background:-ms-linear-gradient(top,white, black  40%) ;
+	background:-o-linear-gradient(top,white, black  40%) ;
+	background:linear-gradient(top,white, black  40%);
+	border-radius: 15px 15px 0px 0px;
+	
+}
+
+.piePagina label{
+	color:white;
+}
+footer{
+	width: 100%;
+
+	
+}
+
+
+

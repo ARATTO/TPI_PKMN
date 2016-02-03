@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*HEADER*/
+.navbar{
+	margin-bottom:0;
+}
+
+.jumbotron{
+	/*background:-webkit-linear-gradient(top, #99CC99, #99CC00  60%);*/
+	background:-webkit-linear-gradient(top,white, black  60%) ;
+	background:-moz-linear-gradient(top,#FFFDFC, #D01D24  60%);
+	background:-ms-linear-gradient(top,#FFFDFC, #D01D24  60%) ;
+	background:-o-linear-gradient(top,#FFFDFC, #D01D24  60%) ;
+	background:linear-gradient(top,#FFFDFC, #D01D24  60%);
+
+	/*#509D95;*/
+	color:#fff;
+	padding:10px 0;
+	bottom:0px;
+	
+
+}
+
+.jumbotron div img{
+		height: 10%;
+		width: 30%; 
+}
+
+/*BODY*/
+body{
+	/*background-attachment: inherit;
+	background-image: url("../images/fondo1.png");
+	*/
+	background-color: black;
+	color: 	white;
+
+}
+
+label{
+	color:black;
+}
+
+.piePagina{
+	background-color: white;
+	border-radius: 15px 15px 0px 0px;
+	
+}
+
+.piePagina label{
+	color:black;
+}
+footer{
+	width: 100%;
+	
+}
